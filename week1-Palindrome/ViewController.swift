@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         inputText.translatesAutoresizingMaskIntoConstraints = false
         inputText.textAlignment = .left
         inputText.placeholder = "Insert palindrome"
+        inputText.setBottomBorder()
         
         view.addSubview(inputText)
                 
